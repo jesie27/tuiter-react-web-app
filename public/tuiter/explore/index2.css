@@ -1,0 +1,79 @@
+.wd-background-black {
+    background-color: black;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+.wd-rounded-corners-pic {
+    border-radius: 27px;
+}
+.wd-fg-color-white {
+    color: white;
+}
+.wd-bg-color-gray {
+    background-color: rgb(47, 51, 54);
+}
+.wd-fg-color-gray{
+    color: rgb(110, 118, 125);
+}
+.wd-grid-col-eighty-page {
+    width:80%;
+    float: left;
+}
+
+.wd-space-tabs {
+    padding-right: 200px;
+}
+
+.width-full {
+    width:100%;
+}
+.wd-padding-fat{
+    padding: 16px;
+}
+.border-black {
+    border-color: black;
+}
+.wd-border-gray {
+    border-color: rgb(110, 118, 125);
+}
+.wd-border-bottom {
+    border-bottom: 1px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+.wd-link-highlight-color {
+    color: rgb(29,161,242);
+}
+.wd-border-bottom-highlight {
+    border-bottom: 2px solid rgb(29,161,242);
+}
+.wd-left-12 {
+    padding-left: 12px;
+}
+.wd-border-all-around {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-topic-font {
+    font-size: 13px;
+    color:rgb(110, 118, 125)
+}
+.wd-news-font {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.wd-float-right {
+    float: right;
+}
+.wd-article-style {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
