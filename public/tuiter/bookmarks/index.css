@@ -1,0 +1,105 @@
+.wd-background-black {
+    background-color: black;
+}
+
+.wd-bookmark-title {
+    color: white;
+    font-size: 20px;
+}
+
+.wd-pad12-top {
+    padding-top: 12px;
+}
+.wd-pad-16-left {
+    padding-left: 16px;
+}
+
+
+.wd-pad-12-left {
+     padding-left: 12px;
+}
+
+.wd-border-all {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.wd-div-1 {
+    margin-top: 0px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 12px;
+}
+
+.wd-handle-style {
+    color: rgba(211, 211, 211, 0.7);
+    font-size: 13px;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-white-15 {
+    font-size: 15px;
+    color: white;
+}
+.wd-author-handle {
+    font-size: 15px;
+    color: rgba(211, 211, 211, 0.7);
+}
+
+.bold {
+    font-weight: bold
+}
+.wd-max-text-width {
+    max-width: 506px;
+}
+.wd-pad-16-right {
+    padding-right: 16px;
+}
+.wd-post-div-width {
+    max-width: 600px;
+}
+.wd-rounded-top {
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.wd-rounded-bottom {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.wd-pic-margin {
+    margin-left: 48px;
+}
+
+.wd-remove-margins {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.wd-pad-lr-12 {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.wd-color-red {
+    color:red;
+}
+
+.wd-color-gray {
+    color: rgba(162, 153, 153, 0.8);
+}
+
+.wd-space-icon {
+    padding-left: 90px;
+
+}
+
+.wd-padding-bottom {
+    padding-bottom: 12px;
+    margin-bottom: 0px;
+}
+
+.wd-no-bottom {
+    border-bottom-width: 0px;
+}

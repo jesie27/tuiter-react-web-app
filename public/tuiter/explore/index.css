@@ -1,0 +1,101 @@
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+.wd-rounded-corners-pic {
+    border-radius: 27px;
+}
+.wd-fg-color-white {
+    color: white;
+}
+.wd-bg-color-gray {
+    background-color: rgb(47, 51, 54);
+}
+.wd-fg-color-gray{
+    color: rgb(110, 118, 125);
+}
+.wd-grid-col-eighty-page {
+    width:80%;
+    float: left;
+}
+
+.wd-body{
+    background-color: black;
+}
+
+.wd-grid-one-sixth-page {
+    width:14%;
+    float: left;
+}
+.wd-width-full {
+    width:100%;
+}
+.wd-padding-fat{
+    padding: 16px;
+}
+.wd-border-black {
+    border-color: black;
+}
+.wd-border-gray {
+    border-color: rgb(110, 118, 125);
+
+}
+.wd-font-size-15 {
+    font-size: 15px;
+}
+.wd-link-highlight-color {
+    color: rgb(29,161,242);
+}
+.wd-border-bottom-highlight {
+    border-bottom: 2px solid rgb(29,161,242);
+}
+.wd-pad-left-16 {
+    padding-left: 16px;
+}
+.wd-border-3-sides {
+    border-left: 1px solid rgb(110, 118, 125);
+    border-right: 1px solid rgb(110, 118, 125);
+    border-bottom: 1px solid rgb(110, 118, 125);
+
+}
+.wd-border-top {
+    border-top: 1px solid rgb(110, 118, 125)
+}
+.wd-article-style {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.wd-padding-slight{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.wd-topic-font {
+    font-size: 13px;
+    color:rgb(110, 118, 125)
+}
+.wd-news-font {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-padding-all-around {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-padding-top-right {
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+}
+
+.wd-padding-left {
+    padding-left: 16px;
+}
+.wd-left-12 {
+    padding-left: 12px;
+}
