@@ -1,0 +1,32 @@
+/* Bottom left text */
+
+.wd-starship-image {
+    left: 15px;
+}
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wd-no-border{
+    border:0;
+    box-shadow: none;
+}
+
+.wd-gray-text{
+    color: rgba(162, 153, 153, 0.83);
+}
+.wd-font-small {
+    font-size: 14px;
+}
+.wd-for-you{
+    text-decoration: #0d99fd underline;
+    text-decoration-thickness: 3px;
+}
+
+.wd-bg-black {
+    background-color: black;
+}
+
+.wd-bold{
+    font-weight: bold;
+}
