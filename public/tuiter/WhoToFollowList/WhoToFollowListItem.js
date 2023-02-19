@@ -9,7 +9,7 @@ const WhoToFollowListItem = (who) => {
     height= "35px"
     class="rounded-5">
          
-    <span class="ms-2">${who.userName} </span>
+    <span class="ms-2 wd-bold">${who.userName} </span>
     
     </br>
      <span class="ms-5"> @${who.handle}</span>

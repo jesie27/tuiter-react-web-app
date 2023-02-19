@@ -3,10 +3,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
 const ExploreComponent = () => {
     return(`
             <div class="row">
-                       <!-- search field and cog -->
-                     
-                       
-                       
+                       <!----------------- search field and cog ------------------->                                
                     <div class="row position-relative">
                         <div class="row col-11 max-width:300px input-icons">
                         <i class="fa-solid fa-magnifying-glass position-absolute mt-2"></i>
@@ -20,17 +17,48 @@ const ExploreComponent = () => {
                         </div>
                         
                         
-                       
+                  
      </div>
            
            
            
            <ul class="nav mb-2 nav-tabs">
-                      <!-- tabs -->
+                      <!------------------- tabs ------------------->
+                      
+                        <div>
+                        <ul class="nav nav-tabs mb-2 ">
+                            <li class="nav-item  ">
+                                <a class="nav-link active" href="#">For You</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href=#">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-sm-none d-md-block d-none d-sm-block" href="#">Entertainment</a>
+                            </li>
+                        </ul>
+                    </div>
                       
                       
            </ul>
-           <!-- image with overlaid text -->
+           <!------------------- image with overlaid text ------------------->
+           
+           <div class="position-relative">
+                        <img src="spacexstar.jpg"
+                              width="540px"
+                              height="350px"/>
+                        <div class="position-absolute bottom-0 wd-starship-image text-white fs-4">SpaceX's Starship</div>
+
+                    </div>
+           
+           
             
            ${PostSummaryList()}
     `);
