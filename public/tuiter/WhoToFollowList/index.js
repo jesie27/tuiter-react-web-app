@@ -10,8 +10,7 @@ const WhoToFollowList = () => {
          ${who.map(who => {
         return(WhoToFollowListItem(who));
     }).join('')}  
-           
-    }     
+               
     </ul>
 `); }
 
