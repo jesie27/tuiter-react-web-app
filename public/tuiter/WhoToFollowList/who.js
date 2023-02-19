@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {   avatarIcon: 'java.jpg',
         userName: 'Java', handle: 'Java', },
@@ -10,5 +11,6 @@ export default [
     {   avatarIcon: 'nasa.jpg',
         userName: 'NASA', handle: 'NASA', },
     {   avatarIcon: 'tesla.jpg',
-        userName: 'Tesla', handle: 'Tesla', }, ];
+        userName: 'Tesla', handle: 'Tesla', },
+];
 

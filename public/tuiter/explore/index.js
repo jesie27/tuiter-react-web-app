@@ -20,7 +20,10 @@ function exploreComponent() {
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-danger">
     <h3>WhoToFollowList </h3>
-    ${WhoToFollow()}
+         ${WhoToFollow()}
+
+   
+    
    </div>
   </div>
    `);
