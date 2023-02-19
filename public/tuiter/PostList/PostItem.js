@@ -1,25 +1,49 @@
 /* eslint-env jquery */
-const postItem = (who) => {
+const postItem = (post) => {
     return(`
-    <h1>hi</h1>
+   
+    <ul class="list-group">
+    
+        <li class="list-group-item">
+        <p class="mb-0 wd-bold">${post.userName}
+        @${post.handle}
+       ${post.time}
+        </p>
+        
+        <p class="mb-0">${post.userInput}</p>
+
+           
+        <img src="${post.image}"
+        width="450px"
+        height="380px"
+        class="ps-4"
+        >   
+        
+        
+       
+        <p class="mb-0">${post.title}</p>
+                <p>${post.postContent}</p>
+
+        </br>
+        <!--bottom icons-->
+        <p class="mb-0">
+            <i class="fa-regular fa-comment"></i>
+            ${post.comments}
+            <i class="fa-solid fa-retweet ps-3"></i>
+             ${post.retuits}
+
+             <i class="fa-solid fa-heart ps-3"></i>
+                                   ${post.likes}
+
+             <i class="fa-sharp fa-solid fa-arrow-up-from-bracket ps-3"></i>
+        </p>
+    </li>
+    
+</ul>
    
 `);
 }
 export default postItem;
 
-// <li className="list-group-item">
-//     <button className="bg-primary text-white rounded-4 float-end">Follow</button>
-//
-//     <img src="${who.avatarIcon}"
-//          width="35px"
-//          height="35px"
-//          className="rounded-5">
-//
-//         <span className="ms-2 wd-bold">${who.userName} </span>
-//
-//     </br>
-//     <span className="ms-5"> @${who.handle}</span>
-//
-//
-// </li>
-//
+
+

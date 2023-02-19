@@ -19,4 +19,3 @@ const PostSummaryItem = (post) => {
     `);
 }
 export default PostSummaryItem;
-//
