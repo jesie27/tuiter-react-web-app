@@ -1,14 +1,14 @@
 import who from "./who.js"
 
-const WhoToFollow = (who) => {
-    return(`
-        <h1>hello</h1>
-    `);
+const WhoToFollowListItem = (who) => {
+    return(`         
+        <H1>test who to follow</H1>
+       
+      `);
 }
 
-export default WhoToFollow;
+export default WhoToFollowListItem;
 
-//
 // ${who.avatarIcon}
 // ${who.userName}
 // ${who.handle}
