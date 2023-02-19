@@ -1,5 +1,4 @@
 /* eslint-env jquery */
-import who from "./who.js";
 const WhoToFollowListItem = (who) => {
     return(`
     <li class="list-group-item">
@@ -22,11 +21,3 @@ const WhoToFollowListItem = (who) => {
 }
 export default WhoToFollowListItem;
 
-// ${who.userName}
-//<li class="list-group-item">${who.avatarIcon}</li>
-// ${who.handle}
-
-//  ${who.userName}
-//<li className="list-group">test 1</li>
-//<li class="list-group">test 1 ${who.userName}</li>
-//${who.userName}

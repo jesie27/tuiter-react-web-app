@@ -1,4 +1,6 @@
-const PostSummaryItem = (post) =>{
+/* eslint-env jquery */
+
+const PostSummaryItem = (post) => {
     return(`
     <h1>test post summary item</h1>
     `);
