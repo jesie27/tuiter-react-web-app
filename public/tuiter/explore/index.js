@@ -16,7 +16,7 @@ function exploreComponent2() {
      <!--<h3>Navigation Sidebar</h3>-->
     ${NavigationSidebar()}
    </div>
-   <div class="col-10 col-lg-7 col-xl-6 ">
+   <div class="col-10 col-lg-7 col-xl-6  ">
     ${exploreComponent()}
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
