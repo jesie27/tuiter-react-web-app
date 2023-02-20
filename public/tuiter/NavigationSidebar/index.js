@@ -1,4 +1,3 @@
-import TabNavigator from "./sections.js";
 const NavigationSidebar = (active) => {
     return(`
    <div class="list-group">
@@ -6,13 +5,20 @@ const NavigationSidebar = (active) => {
        <i class="fab fa-twitter"></i></a>
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
-       <a class='list-group-item' href="../HomeScreen/index.html">
+       <a class='list-group-item
+          ${active === 'Home' ? 'active':''}
+       
+       ' href="../HomeScreen/index.html">
         <i class="fa-solid fa-house float-start"></i>
-          <span class="d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block ps-4 "
+          <span class="d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block ps-4"
           
           >Home</span></a>    
            
-        <a class="list-group-item" href="../explore/index-a5.html"><i class="fa-solid fa-hashtag float-start"></i>
+        <a class="list-group-item
+                  ${active === 'Explore' ? 'active':''}
+
+        
+        " href="../explore/index-a5.html"><i class="fa-solid fa-hashtag float-start"></i>
          <span class="d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block ps-4">Explore</span></a>
         <a class="list-group-item" href="#"><i class="fa-solid fa-bell float-start"></i>
             <span class="d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block ps-4">Notifications</span></a>
