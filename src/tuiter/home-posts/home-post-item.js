@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../index.css';
 const HomePostItem = ({
     post = {
         "topic": "Space",
@@ -36,7 +36,7 @@ const HomePostItem = ({
 
                     <p className="wd-fg-color-gray ms-5 border rounded-bottom border-secondary">
 
-                        <span className={""}>{post.title}</span>
+                        <span className={"wd-bold"}>{post.title} </span>
                         {post.postContent}
                     </p>
                     <p className="mb-0 wd-fg-color-gray ms-5">
