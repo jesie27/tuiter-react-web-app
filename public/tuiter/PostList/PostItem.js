@@ -5,15 +5,13 @@ const postItem = (post) => {
     <ul class="list-group">        
         <li class="list-group-item">
         
-      
-        
         <p class="mb-0">
         
           <img src="${post.propic}"
         width="50px"
         height="50px"
-        class="rounded-5 me-2   "
-        >
+        class="rounded-5 me-2"
+        />
         <span class="wd-bold">${post.userName}</span>
        <span class="wd-fg-color-gray"> @${post.handle}
        ${post.time}</span>
@@ -25,7 +23,7 @@ const postItem = (post) => {
             width="462px"
             height="380px"
             class="border border-secondary rounded-top ms-5"
-            >   
+            />   
                  
             <p class="wd-fg-color-gray ms-5 border rounded-bottom border-secondary">
                 <span class="text-white">${post.title}</span></br>
