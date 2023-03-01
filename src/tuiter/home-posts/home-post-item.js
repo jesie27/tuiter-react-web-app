@@ -23,7 +23,7 @@ const HomePostItem = ({
                         />
                         <span className="wd-bold">{post.userName}</span>
                         <span className="wd-fg-color-gray"> @{post.handle}
-                            {post.time}</span>
+                            <span className={"wd-padding-left"}>{post.time}</span></span>
                     </p>
                     <p className="mb-0 ms-5">{post.userInput}</p>
 
@@ -34,7 +34,7 @@ const HomePostItem = ({
                     />
 
 
-                    <p className="wd-fg-color-gray ms-5 border rounded-bottom border-secondary">
+                    <p className="ms-5 border rounded-bottom border-secondary">
 
                         <span className={"wd-bold"}>{post.title} </span>
                         {post.postContent}
