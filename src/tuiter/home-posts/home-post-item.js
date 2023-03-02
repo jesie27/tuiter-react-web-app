@@ -1,5 +1,6 @@
 import React from "react";
 import '../index.css';
+
 const HomePostItem = ({
     post = {
         "topic": "Space",
@@ -40,15 +41,15 @@ const HomePostItem = ({
                         {post.postContent}
                     </p>
                     <p className="mb-0 wd-fg-color-gray ms-5">
-                        <i className="fa-regular fa-comment pe-2"></i>
+                        <i className="bi bi-chat-left-dots pe-2"></i>
                         {post.comments}
-                        <i className="fa-solid fa-retweet ps-3 pe-2"></i>
+                        <i className="bi bi-repeat ps-3 pe-2"></i>
                         {post.retuits}
 
-                        <i className="fa-solid fa-heart ps-3 pe-2"></i>
+                        <i className="bi bi-heart-fill ps-3 pe-2"></i>
                         {post.likes}
 
-                        <i className="fa-sharp fa-solid fa-arrow-up-from-bracket ps-3"></i>
+                        <i className="bi bi-upload ps-3"></i>
                     </p>
 
 
