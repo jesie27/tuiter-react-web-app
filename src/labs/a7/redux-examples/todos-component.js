@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {addTodo}
+import {addTodo, deleteTodo}
     from "./reducers/todos-reducer";
 
 const Todos = () => {
@@ -9,6 +9,9 @@ const Todos = () => {
     const [todo, setTodo] = useState({do: ''});
 
     const dispatch = useDispatch();
+    const deleteTodoClickHandler = (index) => {
+        dispatch(deleteTodo(index))
+    }
     const createTodoClickHandler = () => {
         dispatch(addTodo(todo))
     }
@@ -42,8 +45,15 @@ const Todos = () => {
     </ul>
             <ul className="list-group">
                 {
-                    todos.map(todo =>
+                    todos.map((todo, index) =>
                         <li className="list-group-item">
+                            <button onClick={() =>
+                                deleteTodoClickHandler(index)}
+                                    className="btn btn-danger
+                      float-end ms-2">
+                                Delete
+                            </button>
+
                             {todo.do}
                         </li>
                     )

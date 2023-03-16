@@ -23,10 +23,15 @@ const todosSlice = createSlice({
                 done: false
             });
         },
+        deleteTodo(state, action) {
+            const index = action.payload
+            state.splice(index, 1)
+        },
+
     }
 
 });
 
-export const {addTodo} = todosSlice.actions
+export const {addTodo, deleteTodo} = todosSlice.actions
 
 export default todosSlice.reducer
