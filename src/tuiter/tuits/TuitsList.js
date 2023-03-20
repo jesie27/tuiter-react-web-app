@@ -1,6 +1,5 @@
 import {useSelector} from "react-redux";
 import React from "react";
-import tuits from './tuits.json';
 import TuitItem from "./TuitItem";
 
 const HomeSummaryList2 = () => {
