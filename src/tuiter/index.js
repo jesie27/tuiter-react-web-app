@@ -7,6 +7,7 @@ import WhoToFollowList from "./who-to-follow-list";
 import ExploreComponent from "./explore";
 import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
+import HomeSummaryList2 from "./tuits/TuitsList";
 import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
@@ -28,7 +29,7 @@ function Tuiter() {
                  style={{"position": "relative"}}>
                 <Routes>
                     <Route path="" element={<ExploreComponent/>}/>
-                    <Route path="home" element={<HomeComponent/>}/>
+                    <Route path="home" element={<HomeSummaryList2/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
                 </Routes>
 

@@ -1,10 +1,29 @@
-[{ "_id": 123, "topic": "Space", "userName": "SpaceX",
+[{  "_id": 123, "topic": "Space", "userName": "Corgi 1",
   "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-  "time": "2h",   "image": "../../images/tesla.jpg" },
-  { "_id": 234, "topic": "Space",   "userName": "SpaceX",
+  "time": "2h", "image": "../../images/corgi-closeup.jpg",
+  "liked": true,
+  "replies": 123,
+  "retuits": 432,
+  "likes": 2345,
+  "handle": "@spacex",
+  "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+},
+
+  { "_id": 234, "topic": "Space",   "userName": "Corgi 2",
     "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-    "time": "2h",   "image": "../../images/spacex.jpg" },
-  { "_id": 345, "topic": "Energy",  "userName": "Tesla",
+    "time": "2h", "image": "../../images/corgsbux.jpg", "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" },
+
+  { "_id": 345, "topic": "Energy",  "userName": "Corgi 3",
     "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
-    "time": "4d",   "image": "../../images/tesla.jpg" }
+    "time": "4d", "image": "../../images/corgiblueflower.jpg", "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" }
 ]
