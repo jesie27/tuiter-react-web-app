@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const tuitClickHandler = () => {
@@ -7,8 +8,8 @@ const WhatsHappening = () => {
     }
     return (
         <div className="row">
-            <div className="col-auto">
-                <img src="/images/nasa.png" width={60}/>
+            <div className="col-auto ">
+                <img className={"rounded-5" } src="../../images/nasa.jpg" width={60}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
