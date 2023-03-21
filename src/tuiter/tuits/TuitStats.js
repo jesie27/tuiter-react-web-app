@@ -3,10 +3,11 @@ import tuits from './tuits.json';
 import TuitItem from "./TuitItem";
 import React, {useState} from "react";
 
-const TuitStats = (tuits,index) => {
+const TuitStats = ({posts}) => {
     let [initialLikes, setLikes] = useState('');
     const likeClickHandler = () => {
     }
+
     return (
         <div>
             <p className="mb-0 wd-fg-color-gray ms-5">
