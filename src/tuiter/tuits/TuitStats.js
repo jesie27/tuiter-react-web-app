@@ -21,7 +21,6 @@ const TuitStats = () => {
             {/*    <i className="bi bi-upload ps-3"></i>*/}
             {/*</p>*/}
 
-            <h1>hi</h1>
             <button className=""
                     onClick={likeClickHandler}>
                 Like

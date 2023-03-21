@@ -38,6 +38,7 @@ const TuitItem = ({
                     <p className="mb-3  ms-5">{post.tuit}</p>
 
 
+                    <TuitStats/>
 
 
                     <p className="mb-0 wd-fg-color-gray ms-5">
@@ -55,9 +56,9 @@ const TuitItem = ({
 
 
                 </li>
-                {TuitStats}
 
             </ul>
+
 
 
 
