@@ -32,7 +32,6 @@ const TuitItem = ({
 
 
 
-
                     <p className="mb-0 wd-fg-color-gray ms-5">
                         <i className="bi bi-chat-left-dots pe-2"></i>
                         {post.comments}
@@ -48,6 +47,8 @@ const TuitItem = ({
 
 
                 </li>
+                {TuitStats}
+
             </ul>
 
 
