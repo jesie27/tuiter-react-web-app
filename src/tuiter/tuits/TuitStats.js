@@ -2,15 +2,17 @@ import {useSelector, useDispatch} from "react-redux";
 import tuits from './tuits.json';
 import TuitItem from "./TuitItem";
 import React, {useState} from "react";
+import {deleteTuit, likePost} from "./tuits-reducer";
 
 const TuitStats = ({tuits}
     ) => {
-    const {initialLikes} = useSelector(state => state.tuits)
-    const [likes, setLikes] = useState(initialLikes);
+
+    const dispatch = useDispatch();
+
     const likeClickHandler = () => {
         console.log('hi');
         //setLikes(initialLikes+1);
-        <h2>{initialLikes}</h2>;
+        dispatch(likePost);
 
     }
 

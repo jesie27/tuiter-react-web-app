@@ -36,10 +36,14 @@ const tuitsSlice = createSlice({
             })
         },
         likePost(state, action) {
+            const initialLikes = state
+                .findIndex(tuit =>
+                    tuit.likes + 1 === action.payload);
+            //classname = red?
         }
     }
 
 });
 
-export const {createTuit, deleteTuit} = tuitsSlice.actions;
+export const {createTuit, deleteTuit, likePost} = tuitsSlice.actions;
 export default tuitsSlice.reducer;

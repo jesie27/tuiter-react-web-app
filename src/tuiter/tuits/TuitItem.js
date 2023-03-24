@@ -40,31 +40,10 @@ const TuitItem = ({
                     </p>
                     <p className="mb-3  ms-5">{post.tuit}</p>
 
-
                     <TuitStats key={post._id}tuits={post}/>
 
-
-                    {/*<p className="mb-0 wd-fg-color-gray ms-5">*/}
-                    {/*    <i className="bi bi-chat-left-dots pe-2"></i>*/}
-                    {/*    {post.comments}*/}
-                    {/*    <i className="bi bi-repeat ps-3 pe-2"></i>*/}
-                    {/*    {post.retuits}*/}
-
-                    {/*    <i className="bi bi-heart-fill ps-3 pe-2"></i>*/}
-                    {/*    {post.likes}*/}
-
-                    {/*    <i className="bi bi-upload ps-3"></i>*/}
-                    {/*</p>*/}
-
-
-
                 </li>
-
             </ul>
-
-
-
-
         </div>
     );
 };
