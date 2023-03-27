@@ -6,7 +6,7 @@ const ProfileComponent=(
         "lastName": "F",
         "handle": "@jesie",
         "profilePicture": "corgi.jpg",
-        "bannerPicture": "../public/images/corgibench.jpg",
+        "bannerPicture": "../public/images/corgi-bench.jpg",
         "bio": "Computer Scientist",
         "website": "youtube.com/webdevtv",
         "location": "Boston, MA",
@@ -21,11 +21,15 @@ const ProfileComponent=(
 
     return (
         <div>
+
             <h4>Profile</h4>
-            <div>{profile.firstName} {profile.lastName}</div>
-            <div>  {profile.bio}</div>
-<div>{profile.location}     Born{profile.dateOfBirth}  Joined{profile.dateJoined}</div>
-<div>{profile.followingCount}Following {profile.followersCount}Followers</div>
+                <button className={"float-right"}>Edit Profile</button>
+
+                <p>{profile.firstName} {profile.lastName}</p>
+            <p>  {profile.bio}</p>
+<p>{profile.location} Born{profile.dateOfBirth}  Joined{profile.dateJoined}</p>
+<p>{profile.followingCount}Following {profile.followersCount}Followers</p>
+                <p>{profile.bannerPicture}</p>
         </div>
     );
 }
