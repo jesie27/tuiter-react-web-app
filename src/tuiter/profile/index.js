@@ -1,4 +1,5 @@
 import React from "react";
+import EditProfile from "../edit-profile";
 
 const ProfileComponent=(
     {profile = {
@@ -23,7 +24,8 @@ const ProfileComponent=(
         <div>
 
             <h4>Profile</h4>
-                <button className={"float-right"}>Edit Profile</button>
+            <a href={"edit-profile"}><button className={"float-right"}>Edit Profile</button></a>
+
 
                 <p>{profile.firstName} {profile.lastName}</p>
             <p>  {profile.bio}</p>
