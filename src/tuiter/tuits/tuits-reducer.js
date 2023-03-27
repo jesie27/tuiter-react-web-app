@@ -36,10 +36,15 @@ const tuitsSlice = createSlice({
             })
         },
         likePost(state, action) {
-            const initialLikes = state
-                .findIndex(tuit =>
-                    tuit.likes + 1 === action.payload);
-            //classname = red?
+            const tuitItem = state
+                .find((tuitItem) =>
+                    tuitItem._id === action.payload._id)
+                    if (tuitItem.liked) {
+                        tuitItem.likes++;
+                    }
+                    const heartColor = tuits.liked? "bi bi-heart-fill": "bi bi-heart";
+                        <i className = {`fa ${heartColor}`} style = {{color:'red'}}></i>
+
         }
     }
 

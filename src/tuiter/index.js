@@ -12,6 +12,7 @@ import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import HomeComponent2 from "./tuits/homeindex2";
+import ProfileComponent from "./profile/index";
 
 
 import { configureStore }
@@ -36,6 +37,8 @@ function Tuiter() {
                     <Route path="" element={<ExploreComponent/>}/>
                     <Route path="home" element={<HomeComponent2/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
+                    <Route path="profile" element={<ProfileComponent/>}/>
+
                 </Routes>
 
             </div>
