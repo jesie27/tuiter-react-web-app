@@ -4,7 +4,7 @@
     "lastName": "F",
     "handle": "@jesie",
     "profilePicture": "corgi.png",
-    "bannerPicture": "corgi-bench.png",
+    "bannerPicture": "../public/images/corgibench.jpg",
     "bio": "Computer Scientist",
     "website": "youtube.com/webdevtv",
     "location": "Boston, MA",

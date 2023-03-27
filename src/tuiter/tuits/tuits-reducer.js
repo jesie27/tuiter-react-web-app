@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import tuits from './tuits.json';
+import profile from "../profile/index";
 
 const currentUser = {
     "userName": "NASA",
@@ -15,6 +16,20 @@ const templateTuit = {
     "replies": 0,
     "retuits": 0,
     "likes": 0,
+}
+const profileTemplate = {
+    "firstName": "Jesie",
+    "lastName": "F",
+    "handle": "@jesie",
+    "profilePicture": "corgi.jpg",
+    "bannerPicture": "../public/images/corgibench.jpg",
+    "bio": "Computer Scientist",
+    "website": "youtube.com/webdevtv",
+    "location": "Boston, MA",
+    "dateOfBirth": "7/11/2023",
+    "dateJoined": "3/2023",
+    "followingCount": 340,
+    "followersCount": 223
 }
 
 const tuitsSlice = createSlice({
@@ -45,10 +60,13 @@ const tuitsSlice = createSlice({
                     const heartColor = tuits.liked? "bi bi-heart-fill": "bi bi-heart";
                         <i className = {`fa ${heartColor}`} style = {{color:'red'}}></i>
 
+        },
+        Profile(state, action) {
+
         }
     }
 
 });
 
-export const {createTuit, deleteTuit, likePost} = tuitsSlice.actions;
+export const {createTuit, deleteTuit, likePost, Profile} = tuitsSlice.actions;
 export default tuitsSlice.reducer;

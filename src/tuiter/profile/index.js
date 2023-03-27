@@ -1,12 +1,12 @@
 import React from "react";
 
 const ProfileComponent=(
-    {   profile = {
+    {profile = {
         "firstName": "Jesie",
         "lastName": "F",
         "handle": "@jesie",
-        "profilePicture": "corgi.png",
-        "bannerPicture": "corgi-bench.png",
+        "profilePicture": "corgi.jpg",
+        "bannerPicture": "../public/images/corgibench.jpg",
         "bio": "Computer Scientist",
         "website": "youtube.com/webdevtv",
         "location": "Boston, MA",
@@ -22,8 +22,10 @@ const ProfileComponent=(
     return (
         <div>
             <h4>Profile</h4>
-            {profile.bio}
-
+            <div>{profile.firstName} {profile.lastName}</div>
+            <div>  {profile.bio}</div>
+<div>{profile.location}     Born{profile.dateOfBirth}  Joined{profile.dateJoined}</div>
+<div>{profile.followingCount}Following {profile.followersCount}Followers</div>
         </div>
     );
 }
