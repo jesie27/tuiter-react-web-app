@@ -24,7 +24,7 @@ const ProfileComponent=(
         <div>
 
             <h4>Profile</h4>
-            <a href={"edit-profile"}><button className={"float-right"}>Edit Profile</button></a>
+            <a href={"edit-profile2"}><button className={"float-right"}>Edit Profile</button></a>
 
 
                 <p>{profile.firstName} {profile.lastName}</p>
