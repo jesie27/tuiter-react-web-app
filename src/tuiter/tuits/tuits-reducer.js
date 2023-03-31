@@ -54,11 +54,11 @@ const tuitsSlice = createSlice({
             const tuitItem = state
                 .find((tuitItem) =>
                     tuitItem._id === action.payload._id)
+                    tuitItem.liked =! tuitItem.liked
                     if (tuitItem.liked) {
                         tuitItem.likes++;
                         const heartColor = tuitItem.liked? `bi bi-heart-fill`: `bi bi-heart`;
-                        <i className = {`bi ${heartColor}`} style = {{color:'red'}}></i>
-                        tuitItem.liked =~ tuitItem.liked;
+
                     }
 
                     else {
