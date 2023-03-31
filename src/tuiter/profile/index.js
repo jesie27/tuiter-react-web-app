@@ -1,13 +1,14 @@
 import React from "react";
 import EditProfile from "../edit-profile";
 
+
 const ProfileComponent=(
     {profile = {
         "firstName": "Nola",
         "lastName": "Corgi",
         "handle": "@nolathecorgi",
         "profilePicture": "corgi.jpg",
-        "bannerPicture": "../public/images/corgi-bench.jpg",
+        "bannerPicture": "../public/images/corgibench.jpg",
         "bio": "Dog",
         "website": "youtube.com/webdevtv",
         "location": "Boston, MA",
@@ -29,8 +30,8 @@ const ProfileComponent=(
 
                 <p>{profile.firstName} {profile.lastName}</p>
             <p>  {profile.bio}</p>
-<p>{profile.location} Born{profile.dateOfBirth}  Joined{profile.dateJoined}</p>
-<p>{profile.followingCount}Following {profile.followersCount}Followers</p>
+<p>{profile.location} Born{profile.dateOfBirth}             Joined{profile.dateJoined}</p>
+<p>{profile.followingCount}Following   {profile.followersCount}Followers</p>
                 <p>{profile.bannerPicture}</p>
         </div>
     );

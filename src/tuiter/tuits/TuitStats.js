@@ -14,6 +14,7 @@ const TuitStats = ({tuits}
         dispatch(likePost(tuits));
 
     }
+    const heartColor = tuits.liked? `bi bi-heart-fill`: `bi bi-heart`;
 
     return (
         <div>
@@ -22,9 +23,10 @@ const TuitStats = ({tuits}
                 {tuits.replies}
                 <i className="bi bi-repeat ps-3 pe-2"></i>
                 {tuits.retuits}
+
                 <button className=""
                         onClick={likeClickHandler}>
-                <i className="bi bi-heart-fill ps-3 pe-2"></i>
+                <i className= {`bi ${heartColor}`} style = {{color:'red'}} ></i>
                 {tuits.likes}
             </button>
 

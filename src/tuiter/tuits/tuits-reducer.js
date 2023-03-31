@@ -57,8 +57,6 @@ const tuitsSlice = createSlice({
                     tuitItem.liked =! tuitItem.liked
                     if (tuitItem.liked) {
                         tuitItem.likes++;
-                        const heartColor = tuitItem.liked? `bi bi-heart-fill`: `bi bi-heart`;
-
                     }
 
                     else {
