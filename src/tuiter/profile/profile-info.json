@@ -1,16 +1,16 @@
 [
   {
-    "firstName": "Jesie",
-    "lastName": "F",
-    "handle": "@jesie",
+    "firstName": "Nola",
+    "lastName": "Corgi",
+    "handle": "@nolathecorgi",
     "profilePicture": "corgi.png",
     "bannerPicture": "../public/images/corgibench.jpg",
-    "bio": "Computer Scientist",
+    "bio": "Dog",
     "website": "youtube.com/webdevtv",
     "location": "Boston, MA",
     "dateOfBirth": "7/11/2023",
     "dateJoined": "3/2023",
-    "followingCount": 340,
-    "followersCount": 223
+    "followingCount": 210,
+    "followersCount": 1000000
   }]
 

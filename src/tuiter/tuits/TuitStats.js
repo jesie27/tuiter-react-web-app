@@ -11,7 +11,7 @@ const TuitStats = ({tuits}
     const likeClickHandler = () => {
         console.log('hi');
         //setLikes(initialLikes+1);
-        dispatch(likePost);
+        dispatch(likePost(tuits));
 
     }
 

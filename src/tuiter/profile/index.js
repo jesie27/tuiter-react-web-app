@@ -3,12 +3,12 @@ import EditProfile from "../edit-profile";
 
 const ProfileComponent=(
     {profile = {
-        "firstName": "Jesie",
-        "lastName": "F",
-        "handle": "@jesie",
+        "firstName": "Nola",
+        "lastName": "Corgi",
+        "handle": "@nolathecorgi",
         "profilePicture": "corgi.jpg",
         "bannerPicture": "../public/images/corgi-bench.jpg",
-        "bio": "Computer Scientist",
+        "bio": "Dog",
         "website": "youtube.com/webdevtv",
         "location": "Boston, MA",
         "dateOfBirth": "7/11/2023",

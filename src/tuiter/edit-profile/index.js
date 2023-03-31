@@ -1,7 +1,13 @@
 import React from "react";
 const EditProfile = () => {
     return(
-        <h4>Edit Profile</h4>
+        <div>
+            <button >X</button>
+            <h4>Edit Profile</h4>
+            <button className="float-end bg-black text-white rounded-4">Save</button>
+            
+        </div>
+
     )
 
 }

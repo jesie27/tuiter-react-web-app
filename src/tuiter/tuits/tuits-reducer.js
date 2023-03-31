@@ -56,9 +56,13 @@ const tuitsSlice = createSlice({
                     tuitItem._id === action.payload._id)
                     if (tuitItem.liked) {
                         tuitItem.likes++;
-                    }
-                    const heartColor = tuits.liked? "bi bi-heart-fill": "bi bi-heart";
+                        const heartColor = tuits.liked? "bi bi-heart-fill": "bi bi-heart";
                         <i className = {`fa ${heartColor}`} style = {{color:'red'}}></i>
+                    }
+
+                    else {
+
+                    }
 
         },
         Profile(state, action) {
