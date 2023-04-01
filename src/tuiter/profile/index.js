@@ -8,7 +8,7 @@ const ProfileComponent=(
         "lastName": "Corgi",
         "handle": "@nolathecorgi",
         "profilePicture": "corgi.jpg",
-        "bannerPicture": "../public/images/corgibench.jpg",
+        "bannerPicture": "images/corgibench.jpg",
         "bio": "Dog",
         "website": "youtube.com/webdevtv",
         "location": "Boston, MA",
@@ -29,9 +29,9 @@ const ProfileComponent=(
 
 
                 <h1>{profile.firstName} {profile.lastName}</h1>
-            <h2>  {profile.bio}</h2>
-<h2>{profile.location} Born{profile.dateOfBirth}    Joined{profile.dateJoined}</h2>
-<h2>{profile.followingCount}Following   {profile.followersCount}Followers</h2>
+            <h3>  {profile.bio}</h3>
+<h3>{profile.location} Born{profile.dateOfBirth}    Joined{profile.dateJoined}</h3>
+<h3>{profile.followingCount}Following   {profile.followersCount}Followers</h3>
                 <p>{profile.bannerPicture}</p>
         </div>
     );
