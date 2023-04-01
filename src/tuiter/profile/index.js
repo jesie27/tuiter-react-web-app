@@ -28,10 +28,10 @@ const ProfileComponent=(
             <a href={"edit-profile2"}><button className={"float-right"}>Edit Profile</button></a>
 
 
-                <p>{profile.firstName} {profile.lastName}</p>
-            <p>  {profile.bio}</p>
-<p>{profile.location} Born{profile.dateOfBirth}             Joined{profile.dateJoined}</p>
-<p>{profile.followingCount}Following   {profile.followersCount}Followers</p>
+                <h1>{profile.firstName} {profile.lastName}</h1>
+            <h2>  {profile.bio}</h2>
+<h2>{profile.location} Born{profile.dateOfBirth}    Joined{profile.dateJoined}</h2>
+<h2>{profile.followingCount}Following   {profile.followersCount}Followers</h2>
                 <p>{profile.bannerPicture}</p>
         </div>
     );
