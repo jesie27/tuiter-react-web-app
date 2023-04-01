@@ -1,5 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
+import ProfileComponent from "../profile";
 const EditProfile =({profile = {
     "firstName": "Nola",
     "lastName": "Corgi",
@@ -21,6 +22,7 @@ const EditProfile =({profile = {
 
     return(
         <div>
+            <a href={"profile"}></a>
             <button >X</button>
             <h4>Edit Profile</h4>
             <button className="float-end bg-black text-white rounded-4">Save</button>
