@@ -18,6 +18,7 @@ const TuitItem = ({
                       }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
+        console.log('nola')
         dispatch(deleteTuitThunk(id));
     }
 
