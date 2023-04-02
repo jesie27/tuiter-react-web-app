@@ -21,7 +21,7 @@ import Homeindex2 from "./tuits/homeindex2";
 import EditProfile from "./edit-profile";
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer}});
+    {reducer: {who: whoReducer, tuits: tuitsReducer, tuitsData: tuitsReducer}});
 
 function Tuiter() {
     return (
