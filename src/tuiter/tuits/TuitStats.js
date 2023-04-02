@@ -24,11 +24,13 @@ const TuitStats = ({tuits}
                 <i className="bi bi-repeat ps-3 pe-2"></i>
                 {tuits.retuits}
 
-                <button className=""
-                        onClick={likeClickHandler}>
-                <i className= {`bi ${heartColor}`} style = {{color:'red'}} ></i>
-                {tuits.likes}
-            </button>
+                {/*<div>*/}
+                {/*    Likes: {tuit.likes}*/}
+                {/*    <i onClick={() => dispatch(updateTuitThunk{*/}
+                {/*        ...tuit,*/}
+                {/*        likes: tuit.likes + 1*/}
+                {/*    })} className="bi bi-heart-fill me-2 text-danger"></i>*/}
+                {/*</div>*/}
 
                 <i className="bi bi-upload ps-3"></i>
             </p>
