@@ -32,6 +32,23 @@ const TuitStats = ({tuits}
             }))
         }
     }
+    const dislikePost = () => {
+        if (!tuits.disliked) {
+            dispatch(updateTuitThunk ({
+                ...tuits,
+                disliked: true,
+                dislikes: tuits.dislikes + 1
+            }))
+        }
+        else {
+            dispatch(updateTuitThunk({
+                ...tuits,
+                disliked: false,
+                dislikes: tuits.dislikes - 1
+            }))
+        }
+    }
+
     const heartColor = tuits.liked? `bi bi-heart-fill`: `bi bi-heart`;
 
     return (
@@ -43,16 +60,28 @@ const TuitStats = ({tuits}
                 {tuits.retuits}
                     <div onClick={likePost} className="nav-link" to={""}>
                         {tuits.liked &&
-                            <i className="bi bi-heart-fill"></i>
+                            <i className="bi bi-heart-fill" style={{color:'red'}}></i>
 
                         }
                         {!tuits.liked &&
-                            <i className="bi bi-heart"></i>
+                            <i className="bi bi-heart" style={{color:'red'}}></i>
 
                         }
                         Likes: {tuits.likes}
 
                     </div>
+
+                <div onClick={dislikePost} className="nav-link" to={""}>
+                    {tuits.disliked &&
+                        <i className="bi bi-hand-thumbs-down-fill"></i>
+
+                    }
+                    {!tuits.disliked &&
+                        <i className="bi bi-hand-thumbs-down"></i>
+                    }
+                    Dislikes: {tuits.dislikes}
+
+                </div>
 
                 <i className="bi bi-upload ps-3"></i>
             </p>

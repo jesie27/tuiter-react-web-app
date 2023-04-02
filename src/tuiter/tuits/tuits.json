@@ -5,6 +5,8 @@
   "replies": 123,
   "retuits": 310,
   "likes": 2345,
+  "dislikes": 10,
+  "disliked": false,
   "handle": "@thecorgi1",
   "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 },
@@ -17,6 +19,8 @@
     "retuits": 207,
     "likes": 888,
     "handle": "@thecorgi2",
+    "dislikes": 30,
+    "disliked": false,
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" },
 
   { "_id": 345, "topic": "Energy",  "userName": "Corgi 3",
@@ -26,6 +30,8 @@
     "replies": 123,
     "retuits": 808,
     "likes": 1000,
+    "dislikes": 79,
+    "disliked": false,
     "handle": "@thecorgi3",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" }
 ]
