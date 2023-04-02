@@ -1,7 +1,8 @@
 import {useSelector} from "react-redux";
-import React from "react";
+import React, {useEffect} from "react";
 import TuitItem from "./TuitItem";
-
+import {findTuitsThunk}
+    from "../../services/tuits-thunks";
 const HomeSummaryList2 = () => {
     const postsArray = useSelector(state => state.tuits)
     return(
