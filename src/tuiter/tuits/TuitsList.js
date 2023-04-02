@@ -18,7 +18,10 @@ const HomeSummaryList2 = () => {
                     Loading...
                 </li>
             }
-            ...
+
+            <TuitItem
+                key={tuits.userName}
+                post={tuits}/>
         </ul>
     );
 
