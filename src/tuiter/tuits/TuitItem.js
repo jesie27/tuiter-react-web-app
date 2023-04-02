@@ -3,17 +3,8 @@ import '../index.css';
 import {useDispatch} from "react-redux";
 import TuitStats from "./TuitStats";
 import {deleteTuitThunk} from "../../services/tuits-thunks";
-const TuitItem = ({
-                          post = {
-                              "topic": "Space",
-                              "userName": "SpaceX",
-                              "time": "2h",
-                              "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-                              "image": "corgibench.jpg",
-                              "replies": 6,
-                              "likes": 5,
-                              "retuits": 7
-                          }
+const TuitItem = ({ post
+
 
                       }) => {
     const dispatch = useDispatch();

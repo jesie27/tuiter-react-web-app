@@ -19,9 +19,12 @@ const HomeSummaryList2 = () => {
                 </li>
             }
 
-            <TuitItem
-                key={tuits.userName}
-                post={tuits}/>
+            {
+                tuits.map(tuits =>
+                    <TuitItem
+                        key={tuits._id} post={tuits}/>
+                )
+            }
         </ul>
     );
 
