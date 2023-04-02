@@ -1,6 +1,7 @@
 import React from "react";
 import EditProfile from "../edit-profile";
 import profile from "./profile-info.json";
+import {Link} from "react-router-dom";
 
 const ProfileComponent=(
 ) =>
@@ -10,7 +11,9 @@ console.log(profile)
         <div>
 
             <h4>Profile</h4>
-            <a href={"edit-profile"}><button className={"float-right"}>Edit Profile</button></a>
+
+            <Link to={"/tuiter/edit-profile"} className="btn btn-light"> Edit
+            </Link>
 
 
                 <h1>{profile.firstName} {profile.lastName}</h1>

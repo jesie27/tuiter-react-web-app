@@ -5,11 +5,27 @@ import {createTuitThunk}
 
 import {useDispatch} from "react-redux";
 
+const currentUser = {
+    "userName": "NASA",
+    "handle": "@nasa",
+    "image": "../../images/nasa.jpg",
+};
+const templateTuit = {
+    ...currentUser,
+    "topic": "Space",
+    "time": "2h",
+    "liked": false,
+    "replies": 0,
+    "retuits": 0,
+    "likes": 0,
+}
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
+
     const tuitClickHandler = () => {
         const newTuit = {
+            ...templateTuit,
             tuit: whatsHappening
         }
         dispatch(createTuitThunk(newTuit));
@@ -19,7 +35,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-auto ">
-                <img className={"rounded-5" } src="../../images/nasa.jpg" width={60}/>
+                <img className={"rounded-5" } src="../../images/corgibench.jpg" width={60}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"

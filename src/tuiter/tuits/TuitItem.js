@@ -12,6 +12,7 @@ const TuitItem = ({ post
         console.log('nola')
         dispatch(deleteTuitThunk(id));
     }
+    console.log(post)
 
     return(
         <div>
