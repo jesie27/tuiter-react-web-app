@@ -6,9 +6,9 @@ import {createTuitThunk}
 import {useDispatch} from "react-redux";
 
 const currentUser = {
-    "userName": "NASA",
-    "handle": "@nasa",
-    "image": "../../images/nasa.jpg",
+    "userName": "corgi",
+    "handle": "@corgi",
+    "image": "../../images/corgibench.jpg",
 };
 const templateTuit = {
     ...currentUser,
