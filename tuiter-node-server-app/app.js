@@ -6,6 +6,8 @@ import UserController
 
 
 const app = express()
+app.use(express.json());
+
 HelloController(app)
 UserController(app)
 app.listen(4000)
