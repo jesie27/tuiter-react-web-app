@@ -3,7 +3,6 @@ import EditProfile from "../edit-profile";
 import profile from "./profile-info.json";
 
 const ProfileComponent=(
-
 ) =>
 {
 console.log(profile)
@@ -18,7 +17,7 @@ console.log(profile)
             <div>  {profile.bio}</div>
 <div>{profile.location} Born{profile.dateOfBirth}       Joined    {profile.dateJoined}</div>
 <div>{profile.followingCount}Following   {profile.followersCount}Followers</div>
-                <p>{profile.bannerPicture}</p>
+                <img src="{profile.bannerPicture}" ></img>
         </div>
     );
 }
